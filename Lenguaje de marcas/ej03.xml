@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte Atletismo= /> <!--No coloca bien el atributo-->
+        <nombre>Jesse Owens</nombre>
+        <deportista>
+            <deporte Natación= /> <!--No coloca bien el atributo-->
+            <nombre>Mark Spitz</nombre>
+        </deportista>
+</deportistas>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<pelicula>
+    <titulo>Con faldas y a lo loco</titulo>
+    <director>Billy Wilder</director>
+</pelicula><pelicula>
+    <director>Leo McCarey</director>
+    <titulo>Sopa de ganso</titulo>
+</pelicula><autor />barto</autor> <!--No anida ninguna de las tablas -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+    <Titulo>
+        XML explicado a los niños
+    </titulo>  <!--Cierra de manera equivocada la etiqueta Titulo-->
+        <párrafo>
+            El
+            <abreviatura>XML</abreviatura>
+            define cómo crear 
+lenguajes de marcas.
+        </párrafo>
+        <párrafo>Las marcas se añaden a un documento de texto 
+para añadir información.</párrafo>
+    <http://>www.example.org</http://>
+</texto>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<geografia mundial>
+    <pais>
+    <pais>España</pais>
+    <continente>Europa</continente>
+    <capital></capital nombre="Madrid"> <!--El atributo se pone en la parte que abre la etiqueta-->
+    </pais>
+</geografia mundial>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa nombre="Firefox" licencia="GPL" licencia="MPL" />
+    <programa nombre="LibreOffice" licencia="LGPL" />
+    <programa nombre="Inkscape" licencia=GPL /> <!--Faltan las comillas en el valor del atributo Licencia-->
+</programas>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+    <bicicleta velocidad="v<100km/h" />
+    <patinete velocidad maxima="50 km/h" <!--El atributo no se puede crear de manera separada-->
+</mediosDeTransporte>
+
+<!-- Documento XML con errores de sintaxis. --> <!--No se puede colocar el simbolo ! al final del comentario-->
+<? xml versión="1.0" encodin = "UTF-8" >
+    <terrestres>
+    <vehiculo>bicicleta<vehiculo>
+    <vehiculo>coche<vehiculo>
+    <vehiculo>tractor<vehiculo>
+    <acuaticos>
+    <vehiculo>canoa<vehiculo>
+    <aereos>
+    <vehiculo>avioneta<vehiculo>
+    <vehiculo>helicóptero<vehiculo>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<numeros>
+    <1 letra="u" letra="n" letra="o">1</> 
+    <2 letra="d" letra="o" letra="s">22</>
+    <6 letra="s" letra="e" letra="i" letra="s">666666</> <!--No cionciden las etiquetas-->
+</numeros>

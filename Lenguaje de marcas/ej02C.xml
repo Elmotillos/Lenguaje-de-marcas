@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jugador>
+    <caracteristicas nombre="Mariano" edad="25" ritmo="100" fisico="100" regate="999"></caracteristicas>
+
+    <temporada1>
+
+        <jornada1 goles="23" minutos="90" amarilla="1" roja="0"></jornada1>
+
+        <jornada2 goles="16" minutos="70" amarilla="0" roja="0"></jornada2>
+
+    </temporada1>
+
+    <temporada2>
+
+        <jornada1 goles="13" minutos="70" amarilla="0" roja="0"></jornada1>
+
+        <jornada2 goles="40" minutos="50" amarilla="0" roja="1"></jornada2>
+
+    </temporada2>
+
+</jugador>

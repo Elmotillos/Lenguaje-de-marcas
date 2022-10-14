@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<eventos>
+    <evento>
+        <hecho descripción="IBM da a conocer el PC"></hecho>    
+        <fecha>
+            <día>12</día>
+            <mes>8</mes>
+            <año>1981</año>
+        </fecha>
+    </evento>
+    <evento>
+        <hecho descripción="Se funda Google"></hecho>    
+        <fecha>
+            <día>4</día>
+            <mes>9</mes>
+            <año>1998</año>
+        </fecha>
+    </evento>
+    <evento>
+        <hecho descripción="Se funda Facebook"></hecho>    
+        <fecha>
+            <día>4</día>
+            <mes>2</mes>
+            <año>2004</año>
+        </fecha>
+    </evento>
+</eventos>
