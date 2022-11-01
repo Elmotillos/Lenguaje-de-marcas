@@ -1,0 +1,231 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: #395756;
+}
+
+header{
+    background-color: #1B3022;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    border-radius: 125px;
+
+}
+
+.contenido{
+    padding-top:250px;
+}
+
+.contenido_texto{
+    padding-block: 90px;
+    font-size: larger;
+
+}
+
+
+.logo{
+    flex:1;
+    margin-top: 10px;
+    height: 80px;
+    float: left;
+}
+
+header nav{
+    flex:8;
+    float:right;
+    line-height: 100px;
+}
+
+header nav a{
+    display:inline-block;
+    color:black;
+    text-decoration: none;
+    padding: 10px 40px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+header nav a:hover{
+    background-color: #CDFEAA;
+    border-radius: 50px;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    overflow:hidden;
+}
+
+.fotos_animales{
+    padding-top:250px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 250px;
+}
+
+.fotos{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+}
+
+.animales{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+
+.animal{
+    padding-block: 50px;
+    flex:10;
+    font-size: larger;
+    text-align: center;
+}
+
+.parrafo{
+    padding-block: 50px;
+    padding-inline-start: 20px;
+}
+
+.animales a{
+    display:inline-block;
+    color:#2CEAA3;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.animales a:hover{
+    background-color: #CDFEAA;
+    border-radius: 50px;
+}
+
+footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1B3022;
+    height: auto;
+    font-family: "Open Sans";
+    padding-top: 40px;
+}
+
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+ 
+.principal {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family:Arial;
+}
+ 
+form {
+    padding-top: 250px;
+    margin:0 auto;
+    width:400px;
+    padding-bottom: 350px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#30c27b;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:black;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.nombre_foto{
+    float:right;
+    padding-top: 250px;
+    margin-right: 30px;
+}
+.foto_pagina_animal1{
+    background-image: url(img/aguila.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto; 
+}
+.foto_pagina_animal2{
+    background-image: url(img/cernicalo.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto; 
+}
+
+.foto_pagina_animal3{
+    background-image: url(img/lince_iberico.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto; 
+}
+.foto_pagina_animal4{
+    background-image: url(img/nutria.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto; 
+}
+
+.nombre_animal{
+    text-align: center;
+    font-size: 50px;
+
+}
+.texto{
+    padding-top:250px;
+    font-size: larger;
+    padding-bottom: 250px;
+}
+
+
+
