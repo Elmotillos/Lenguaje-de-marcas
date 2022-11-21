@@ -1,11 +1,10 @@
+/*Delimito los margenes generales de la pagina
 *{
     margin:0%;
     padding:0%;
 }
-body{
-    background-color: #395756;
-}
 
+/*Diseño la cabecera y ordeno el contenido con un display flex
 header{
     background-color: #1B3022;
     width: 100%;
@@ -13,20 +12,9 @@ header{
     display: flex;
     position: fixed;
     border-radius: 125px;
-
 }
 
-.contenido{
-    padding-top:250px;
-}
-
-.contenido_texto{
-    padding-block: 90px;
-    font-size: larger;
-
-}
-
-
+/*Le doy estilo al logo
 .logo{
     flex:1;
     margin-top: 10px;
@@ -34,12 +22,14 @@ header{
     float: left;
 }
 
+/*Posiciono el navegador y 
 header nav{
     flex:8;
     float:right;
     line-height: 100px;
 }
 
+/*Diseño los enlaces 
 header nav a{
     display:inline-block;
     color:black;
@@ -53,11 +43,13 @@ header nav a{
     transition: all 500ms ease;
 }
 
+/*Le doy una trasicion junto a un hover al los enlaces
 header nav a:hover{
     background-color: #CDFEAA;
     border-radius: 50px;
 }
 
+/*Clase utilizada para centrar
 .wrapper{
     width: 100%;
     max-width: 1000px;
@@ -65,6 +57,24 @@ header nav a:hover{
     overflow:hidden;
 }
 
+/*Le aplico el color deseado al fondo del cuerpo
+body{
+    background-color: #395756;
+}
+
+/*Para separlo 
+.contenido{
+    padding-top:250px;
+}
+
+/*Para separar el bloque y darle mayor tamaño al texto
+.contenido_texto{
+    padding-block: 90px;
+    font-size: larger;
+
+}
+
+/*Div que recoge a los animales con sus fotos con dos flex
 .fotos_animales{
     padding-top:250px;
     display: flex;
@@ -72,6 +82,8 @@ header nav a:hover{
     padding-bottom: 250px;
 }
 
+
+/*Un flex column para ponerlo en columna
 .fotos{
     flex:1;
     display:flex;
@@ -80,6 +92,7 @@ header nav a:hover{
     width: max-content;
 }
 
+/*Un flex column para ponerlo en columna
 .animales{
     flex:1;
     display:flex;
@@ -98,6 +111,7 @@ header nav a:hover{
     padding-inline-start: 20px;
 }
 
+/*Le da un diseño a los enlaces de los animales
 .animales a{
     display:inline-block;
     color:#2CEAA3;
@@ -112,11 +126,13 @@ header nav a:hover{
     transition: all 500ms ease;
 }
 
+/*Le otorga una transición a los enlaces con un hover
 .animales a:hover{
     background-color: #CDFEAA;
     border-radius: 50px;
 }
 
+/*Diseño del footer
 footer{
     position:relative;
     bottom: 0;
@@ -128,7 +144,65 @@ footer{
     padding-top: 40px;
 }
 
+/*Nombre del animal 
+.nombre_foto{
+    float:right;
+    padding-top: 250px;
+    margin-right: 30px;
+}
+/*Fotos de los animales en cada pagina
+.foto_pagina_animal1{
+    background-image: url(img/aguila.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto; 
+}
+.foto_pagina_animal2{
+    background-image: url(img/cernicalo.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto; 
+}
 
+.foto_pagina_animal3{
+    background-image: url(img/lince_iberico.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto; 
+}
+.foto_pagina_animal4{
+    background-image: url(img/nutria.jpg);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto; 
+}
+
+
+.nombre_animal{
+    text-align: center;
+    font-size: 50px;
+}
+
+/*Diseño del texto en la pagina del animal
+.texto{
+    padding-top:250px;
+    font-size: larger;
+    padding-bottom: 250px;
+}
+
+/*Css del formulario
 label {
     display:block;
     margin-top:20px;
@@ -173,59 +247,9 @@ textarea {
     cursor:pointer;
 }
 
-.nombre_foto{
-    float:right;
-    padding-top: 250px;
-    margin-right: 30px;
-}
-.foto_pagina_animal1{
-    background-image: url(img/aguila.jpg);
-    height: 500px;
-    width: 500px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto; 
-}
-.foto_pagina_animal2{
-    background-image: url(img/cernicalo.jpg);
-    height: 500px;
-    width: 500px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto; 
-}
 
-.foto_pagina_animal3{
-    background-image: url(img/lince_iberico.jpg);
-    height: 500px;
-    width: 500px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto; 
-}
-.foto_pagina_animal4{
-    background-image: url(img/nutria.jpg);
-    height: 500px;
-    width: 500px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto; 
-}
 
-.nombre_animal{
-    text-align: center;
-    font-size: 50px;
 
-}
-.texto{
-    padding-top:250px;
-    font-size: larger;
-    padding-bottom: 250px;
-}
 
 
 
